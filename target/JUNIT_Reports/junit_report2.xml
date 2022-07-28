@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="177.662">
+    <testcase classname="To verifying the functionality of an Login." name="Checking the fuctionality of a login module with Valid credentials." time="11.535">
+        <system-out><![CDATA[Given User on the webpage "https://www.saucedemo.com/"......................passed
+And User enters the 'standard_user'.........................................passed
+And User passes the 'secret_sauce'..........................................passed
+When Click on the LoginButton...............................................passed
+Then User is navigate to Next page..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To verifying the functionality of an Login." name="Checking the fuctionality of a login module with Valid credentials. 2" time="14.233">
+        <system-out><![CDATA[Given User on the webpage "https://www.saucedemo.com/"......................passed
+And User enters the 'problem_user'..........................................passed
+And User passes the 'secret_sauce'..........................................passed
+When Click on the LoginButton...............................................passed
+Then User is navigate to Next page..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To verifying the functionality of an Login." name="Checking the fuctionality of a login module with Valid credentials. 3" time="21.676">
+        <system-out><![CDATA[Given User on the webpage "https://www.saucedemo.com/"......................passed
+And User enters the 'performance_glitch_user'...............................passed
+And User passes the 'secret_sauce'..........................................passed
+When Click on the LoginButton...............................................passed
+Then User is navigate to Next page..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To verifying the functionality of an Login." name="Checking the fuctionality of a login module with Valid credentials. 4" time="21.167">
+        <system-out><![CDATA[Given User on the webpage "https://www.saucedemo.com/"......................passed
+And User enters the 'locked_out_user'.......................................passed
+And User passes the 'secret_sauce'..........................................passed
+When Click on the LoginButton...............................................passed
+Then User is navigate to Next page..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To verifying the functionality of an Login." name="Checking the fuctionality of a login module with InValid credentials." time="27">
+        <system-out><![CDATA[Given User on the webpage "https://www.saucedemo.com/"......................passed
+And User entered the Invalid username.......................................passed
+And User passed the Invalid password........................................passed
+When Tap on the LoginButton.................................................passed
+Then User is occured error massage..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To verifying the functionality of an Login." name="Checking the fuctionality of a login module without credentials." time="21.428">
+        <system-out><![CDATA[Given User on the webpage "https://www.saucedemo.com/"......................passed
+When Tap the LoginButton....................................................passed
+Then Error massage displayed................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To verifying the functionality of an Login." name="Checking the fuctionality of a login module with Username only." time="29.14">
+        <system-out><![CDATA[Given User on the webpage "https://www.saucedemo.com/"......................passed
+And Username entered........................................................passed
+When Tap on LoginButton.....................................................passed
+Then User Should occured error massage......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To verifying the functionality of an Login." name="Checking the fuctionality of a login module with Password only." time="31.39">
+        <system-out><![CDATA[Given User on the webpage "https://www.saucedemo.com/"......................passed
+And password entered........................................................passed
+When Tap LoginButton........................................................passed
+Then Error massage should displayed.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="59.715">
+    <testcase classname="To verifying the fuctionlity of an soft option" name="To validate that user is able navigate Product catlog page." time="28.771">
+        <system-out><![CDATA[Given on the webpage "https://www.saucedemo.com/"...........................passed
+And User will type the 'standard_user'......................................passed
+And User can type the 'secret_sauce'........................................passed
+When Click LoginButton......................................................passed
+Then User navigating to product backlog page................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To verifying the fuctionlity of an soft option" name="To validate that user is able to click the softButton" time="9.139">
+        <system-out><![CDATA[When click on Soft button...................................................passed
+Then User able to see the multiple choises for sorting the products.........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To verifying the fuctionlity of an soft option" name="To checking the functionality of an sorting options." time="21.73">
+        <system-out><![CDATA[Given User is able to click the sort button.................................passed
+When selecting the available sorting options................................passed
+Then Products soft according to the selected options........................passed
+]]></system-out>
+    </testcase>
+</testsuite>
